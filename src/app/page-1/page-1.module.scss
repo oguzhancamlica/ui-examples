@@ -1,0 +1,36 @@
+.area {
+    background-color:#9292AE;
+    height: 100vh;
+    .bgOrange {
+        position: absolute;
+        left: 30px;
+        width: 18%;
+        height: 88%;
+        background-color: #EA4C3C;
+        border-radius: 1rem;
+    }
+
+    .container {
+        width: 90%;
+        height: 80%;
+        background-color: #fff;
+        border-radius: 1rem;
+        z-index: 1;
+
+        .navLeft {
+            width: 20%;
+            background-color: #F1F1FB;
+            height: 100%;
+            border-bottom-left-radius: 1rem;
+            border-top-left-radius: 1rem;
+            .navLink {
+                margin-bottom: 1rem;
+                &:hover{ 
+                    color:#EA4C3C;
+                }
+            }
+       
+        }
+    }
+}
+

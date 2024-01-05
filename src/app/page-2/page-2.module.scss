@@ -1,0 +1,10 @@
+.bgPurple {
+    background-color: rgba(239, 235, 253, 1);
+     width: 400px;
+     height: 70%;
+}
+@media (max-width:691px){
+.bgPurple{
+    width: 60% !important;
+}
+}
