@@ -1,0 +1,33 @@
+$itemWidth: calc(100% / 3);
+
+.itemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    overflow: hidden;
+    max-width: 80%;
+    margin: 40px;
+
+    .item {
+        display: flex;
+        flex: $itemWidth;
+        max-width: $itemWidth;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 300px;
+        color: white;
+        padding: 40px;
+        align-items: start;
+
+        &:last-child {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .item {
+        flex: 100% !important;
+        max-width: 100% !important;
+    }
+}
