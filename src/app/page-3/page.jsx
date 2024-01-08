@@ -64,7 +64,7 @@ badges:[
 
     ]
     return (
-        <div className="bg-page-3 height-100 d-flex align-items-start align-items-lg-center justify-content-lg-center justify-content-start">
+        <div className="bg-primary d-flex align-items-start align-items-lg-center justify-content-lg-center justify-content-start" style={{minHeight:"100vh"}}> 
             <div className="bg-white p-5 rounded-3 m-3" style={{maxWidth:1000}}>
              <h3 className="fw-bold mb-3">Users</h3>
             <div className="d-block d-lg-flex align-items-center gap-3 justify-content-between mb-5">

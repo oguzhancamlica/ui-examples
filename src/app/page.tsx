@@ -7,7 +7,7 @@ export default function Home() {
   <Link href="/page-1">page-1</Link>
   <Link href="/page-2"> page-2</Link>
   <Link href="/page-3">Page-3</Link>
-  <Link href="#">page-4</Link>
+  <Link href="/page-4">page-4</Link>
   </>
   )
 }
